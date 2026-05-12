@@ -1,0 +1,230 @@
+
+@import url('https://googleapis.com');
+
+body{
+margin: 0;
+padding: 0;
+font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+nav{
+    margin: 0;
+    padding: 3px;
+    border-bottom: 2px solid;
+    padding-left: 6%;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 2.3vw;
+    font-weight: 600;
+}
+.page-1{
+    height: 100vh;
+}
+.first{
+    margin:16px;
+    padding-left: 5%;
+    padding-top: 10%;
+}
+
+h1{
+    font-size: 3.7vw;
+    font-family: 'Inter', sans-serif;
+    width: 55%;
+    line-height: 1.2;
+
+}
+.first p{
+    width: 45%;
+    line-height: 1.5;
+    color: #848484;
+}
+.explore-links {
+  display: flex;
+  gap: 80px;
+  padding-left: 4vw;
+  padding-top: 5vw;
+}
+
+.explore-links a,
+.explore-links a:visited {
+  color: black;
+}
+
+.page-2{
+    padding-left: 5%;
+    padding-top: 4%;
+    font-family: 'Inter', sans-serif;
+    /*border: 1px solid;*/
+}
+
+.page-2-title{
+    font-size: 2.5vw;
+    font-weight: 600;
+    letter-spacing: -1px;
+    
+}
+
+.page-2-sub{
+    width: 60%;
+    font-weight: 400;
+    font-size: 1.3vw;
+    line-height: 1.2;
+}
+
+video {
+  height: 70vh;
+  object-fit: cover;
+}
+
+img{
+  width: 105%;
+  height: 70vh;
+  object-fit: cover;
+  margin-left: -40px;
+}
+
+figcaption{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-left: -40px;
+}
+
+table {
+  width: 95%;
+  border-collapse: collapse;
+  border: 2px solid;
+  font-size: 0.85rem;
+  /*table-layout: fixed;*/
+}
+
+caption {
+  font-size: 1.3vw;
+  font-weight: 500;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  text-align: left;
+
+}
+
+td, th {
+  width: 120px;
+  height: 40px;
+  text-align: center;
+}
+
+th {
+ /* padding: 10px 20px;*/
+  border: 2px solid;
+}
+
+td {
+  border: 2px solid;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+  color: black;
+}
+
+td:nth-child(1) {
+  font-weight: normal;
+}
+
+
+label, input, textarea, select {
+  display: block;
+  width: 35%;
+  padding: 10px 10px 15px 0px;
+  font-size: 1vw;
+}
+
+label{
+    font-weight: bold;
+}
+
+input, textarea, select {
+    padding: 15px;
+}
+
+select{
+    width: 38%;
+}
+textarea{
+    height: 18vh;
+}
+
+small {
+  display: block;
+  color: gray;
+  margin-top: 4px;
+  font-size: 0.8rem;
+  margin-bottom: 10px;
+}
+
+label input[type="radio"] {
+  display: inline;
+}
+
+.radio-group {
+  display: flex;
+  gap: 1px;
+  width: 30%;
+}
+
+input[type="radio"] {
+    width: 15px;
+    height: 15px;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+  
+}
+
+label input[type="checkbox"] {
+  display: inline;
+}
+
+.checkbox-group {
+  display: flex;
+  gap: 1px;
+  width: 30%;
+}
+
+input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle; 
+}
+button{
+    width: 20%;
+    height: 20%;
+    padding: 1%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color:#ffffff ;
+    background-color: #B5B5B5;
+    border: 0;
+}
+
+.page-2 li{
+    font-weight: 500;
+    padding: 10px;
+}
+
+.page-2 hr{
+    margin-top: 50px;
+    margin-left: 1%;
+    margin-right: 2.5%;
+}
+
+.page-flex{
+    margin-left: 1%;
+    display: flex;
+    gap: 30px;
+    font-weight: 600;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    margin-bottom: 10px;
+}

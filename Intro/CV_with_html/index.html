@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Milestone Project - HTML</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://gstatic.com" crossorigin>
+  <link href="https://googleapis.com" rel="stylesheet">
+ <link rel="stylesheet" href="styles.css" type="text/css"> 
+</head>
+<body>
+  <main>
+    <section class="page-1">
+      <nav>
+        <p>Logo</p>
+      </nav>
+      <div class="first">
+        <h1>Explore Our Solar System Through Data</h1>
+        <p>Understand the planets not just by name, but by measurable facts. From size and mass to gravity and density, this page breaks down the solar system in a clear, data-driven way.</p>
+        <div class="explore-links">
+          <a href="#">Explore the data</a>
+          <a href="#">Contact us</a>
+        </div>
+        </p>
+      </div>
+    </section>
+    <hr>
+    <section class="page-2">
+      <p class="page-2-title">How Planetary Data Helps Us Understand Space</p>
+      <p class="page-2-sub">Planetary science goes beyond images. Comparing <strong>mass</strong>, <strong>diameter</strong>, <strong>gravity</strong>, and <strong>density</strong>, we gain insight into how planets form, behave, and interact within the solar system.</p>
+      <div class="video">
+        <video autoplay muted loop controls>
+          <source src="Planetary science y.mp4" type="video/mp4">
+          <source src="Planetary science y.webm" type="video/webm">
+          <source src="Planetary science y.ogg" type="video/ogg">
+        </video>
+      </div>
+    </section>
+    <hr>
+    <section class="page-2">
+      <p class="page-2-title">Visualizing the Differences Between Planets</p>
+      <p class="page-2-sub">Each planet in our solar system has unique physical characteristics. Visual comparisons help highlight how vastly different terrestrial planets are from gas giants and ice giants</p>
+      <div class="planet-image">
+        <figure>
+          <img src="different planets.jpg" alt="different planets">
+          <figcaption>This is an image of all the different planets</figcaption>
+        </figure>
+      </div>
+    </section>
+    <hr>
+    <section class="page-2">
+      <p class="page-2-title">Planetary Facts at a Glance</p>
+      <p class="page-2-sub">Below is a comparative table of major planets in our solar system. The data highlights key physical properties used by astronomers and researchers worldwide</p>
+      <table>
+        <caption> Data about the planets of our solar system (Planetary facts taken from Nasa)</caption>
+        <tr>
+          <th colspan="2"></th>
+          <th>Name</th>
+          <th>Mass (10 24kg)</th>
+          <th>Diameter (9km)</th>
+          <th>Density (kg/m3)</th>
+          <th>Gravity (m/s2)</th>
+        </tr>
+        <tr>
+          <th colspan="2" rowspan="4">Terrestial Planets</th>
+          <td>Mecury</td>
+          <td>0.330</td>
+          <td>4,878</td>
+          <td>5427</td>
+          <td>3.7</td>
+        </tr>
+        <tr>
+          <td>Venus</td>
+          <td>0.330</td>
+          <td>4,878</td>
+          <td>5427</td>
+          <td>3.7</td>
+        </tr>
+        <tr>
+          <td>Earth</td>
+          <td>0.330</td>
+          <td>4,878</td>
+          <td>5427</td>
+          <td>3.7</td>
+        </tr>
+        <tr>
+          <td>Mars</td>
+          <td>0.330</td>
+          <td>4,878</td>
+          <td>5427</td>
+          <td>3.7</td>
+        </tr>
+        <tr></tr>
+          <th rowspan="4">Jovian Planets</th>
+          <th rowspan="2">Gas Giants</th>
+          <td>Jupiter</td>
+          <td>0.330</td>
+          <td>4,878</td>
+          <td>5427</td>
+          <td>3.7</td>
+        </tr>
+        <tr>
+          <td>Saturn</td>
+          <td>0.330</td>
+          <td>4,878</td>
+          <td>5427</td>
+          <td>3.7</td>
+        </tr>
+        <tr>
+          <th rowspan="2">Ice Giants</th>
+          <td>Uranus</td>
+          <td>0.330</td>
+          <td>4,878</td>
+          <td>5427</td>
+          <td>3.7</td>
+        </tr>
+        <tr>
+          <td>Neptune</td>
+          <td>0.330</td>
+          <td>4,878</td>
+          <td>5427</td>
+          <td>3.7</td>
+        </tr>
+        <tr>
+          <th colspan="2">Dwarf Planets</th>
+          <td>Pluto</td>
+          <td>0.330</td>
+          <td>4,878</td>
+          <td>5427</td>
+          <td>3.7</td>
+        </tr>
+      </table>
+    </section>
+    <section class="page-2">
+      <p class="page-2-title">Have Questions About Planetary Science?</p>
+      <p class="page-2-sub">Interested in learning more about space, astronomy, or how planetary data is collected and analyzed? <br>Reach out and we’ll get back to you.</p>
+      <form>
+        <label for="fullname">Full Name*</label>
+        <input type="text" id="fullname" name="fullname" placeholder="Full name" required>
+        <label for="email">Email*</label>
+          <input type="email" id="email" name="email" placeholder="example@example.com">
+        <label for="city">City*</label>
+          <select id="city" name="city">
+            <option value="">-- Select a city --</option>
+            <option value="lagos">Lagos</option>
+            <option value="abuja">Abuja</option>
+            <option value="ibadan">Ibadan</option>
+            <option value="kano">Kano</option>
+            <option value="port-harcourt">Port Harcourt</option>
+          </select>
+        <label for="message">Message*</label>
+          <textarea id="message" name="message" placeholder="Enter your message"></textarea>
+          <small>100 characters</small>
+        <label>How should we contact you?</label>
+        <div class="radio-group">
+          <label>
+            <input type="radio" name="phone" value="phone"> Phone
+          </label>
+          <label>
+            <input type="radio" name="email" value="email"> Email
+          </label>
+          <label>
+            <input type="radio" name="both" value="both"> Both
+          </label>
+        </div>
+        <label>How did you hear about us?</label>
+        <div class="checkbox-group">
+          <label>
+            <input type="checkbox" name="info" value="friend"> Friend
+          </label>
+          <label>
+            <input type="checkbox" name=" info" value="TS Academy"> TS Academy
+          </label>
+          <label>
+            <input type="checkbox" name="info" value="Others"> Others
+          </label>
+        </div>
+        <button type="submit">Submit</button>
+
+      </form>
+    </section>
+    <hr>
+    <section class="page-2">
+      <p class="page-2-title">About</p>
+      <p class="page-2-list">
+        <ul><li>Planetary Facts</li></ul>
+        <ul><li>Gallery</li></ul>
+        <ul><li>World Records</li></ul>
+        <ul><li>Guides</li></ul>
+      </p>
+      <hr>
+      <div class="page-flex">
+        <p> &copy; 2022 Sunday Marvellous.</p>
+        <p>Design by Marvellous</p>
+        <p>All rights reserved</p>
+      </div>
+       <div class="page-flex">
+        <p>Privacy & Policy</p>
+        <p>Terms & Condition</p>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
